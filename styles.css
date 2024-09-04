@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Muac';
+    src: url('fonts/Muac.woff2') format('woff2'), 
+         url('fonts/Muac.woff') format('woff');
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Muac', sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    height: 100%;
+    background: url('https://i.pinimg.com/originals/73/0d/75/730d75ed729397068c7a89fa7476e305.gif') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+}
+
+h1 {
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+    margin-top: 20px;
+}
